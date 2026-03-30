@@ -1,32 +1,31 @@
-# Bookmark Manager
+# Web Dev Projects
 
-A simple bookmark manager website built with HTML. This is one of my early web development projects where I organize useful website links in a clean list format.
+A collection of small web development projects I am building while learning HTML, CSS, and JavaScript. Each project is kept simple and focused on practicing core web development skills.
 
-## What It Does
+## Projects
 
-- Shows a list of my most used websites
-- Links open in a new tab
-- Organized into Primary and Secondary bookmark sections
+| Project | Tech Used | 
+|---------|----------------|
+| Bookmark Manager | HTML | 
 
-## Built With
+## About
+
+I am Muhammad Shoaib, learning web development from scratch. This repo is where I keep all my small practice projects. As I learn new things I keep adding new projects here.
+
+## Tech I Am Learning
 
 - HTML
+- CSS
+- JavaScript
 
-## Current Status
+## Big Projects
 
-This project is still in progress. I will be adding CSS styling and JavaScript features soon.
-
-## What's Coming Next
-
-- CSS styling to make it look clean and modern
-- JavaScript to add and delete bookmarks dynamically
-- localStorage to save bookmarks in the browser
+When I build bigger projects like full website clones or complete apps, I create a separate dedicated repo for those.
 
 ## Author
 
 Muhammad Shoaib
-- GitHub: [@Code-Shoaib](https://github.com)
-
+- GitHub: [@Code-Shoaib](https://github.com/Code-Shoaib)
 ## Note
 
-This is a learning project. I am building it step by step as I learn web development.
+This repo is always growing. New projects get added regularly as I keep learning.
