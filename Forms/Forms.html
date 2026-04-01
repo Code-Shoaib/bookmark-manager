@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Registration Form
+</title>
+</head>
+<body>
+    <h1>Web Developer Registration Form</h1>
+
+<p>Fill in the form below to create your account. Make sure all information is accurate before submitting.</p>
+
+<ul>
+    <li> All fields marked are required</li>
+    <li>Password must be at least 8 characters</li>
+    <li> Make sure your email address is valid</li>
+</ul>
+<form>
+    <div>
+        <label for="name"> Fullname</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Fullname">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email Address">
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter Password">
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="100" placeholder="Enter Age">
+    </div>
+    <div>
+        <label for="country">Select Country</label>
+        <select name="country" id="country">
+            <option value="">Select Your Country</option>
+            <option value="pk">Pakistan</option>
+            <option value="usa">Usa</option>
+            <option value="uk">Uk</option>
+            <option value="in">Indonesia</option>
+            <option value="iran">Iran</option>
+        </select>
+    </div>
+    <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male"> Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+    </div>
+    <div>
+        <label for="language">Which languages are you learning</label>
+        <input type="checkbox" name="language" id="html" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="language" id="css" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="language" id="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+
+    </div>
+    <div>
+        <label for="tell">Tell us about yourself</label>
+    </div>
+    <div>
+        <textarea  name="tell"  id="tell"  rows="5" cols="30" placeholder="Tell us Aboutyou"></textarea>
+    </div>
+
+    <div>
+        <input type="checkbox" id="agree">
+        <label for="agree">I agree to terms and conditions</label>
+    </div>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+</body>
+</html>
